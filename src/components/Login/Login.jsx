@@ -13,7 +13,7 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      // This is a mock authentication check, replace it with your actual logic
+      // mock data
       if (email === 'user@gmail.com' && password === 'password') {
         login({ email, role: 'user' });
         navigate('/dashboard');
