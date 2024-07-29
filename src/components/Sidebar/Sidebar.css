@@ -1,0 +1,19 @@
+.sidebar {
+  width: 200px;
+  background-color: #343a40;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}

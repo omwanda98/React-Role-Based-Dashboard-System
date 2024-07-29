@@ -1,0 +1,40 @@
+.user-dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-container {
+  display: flex;
+  transition: margin-left 0.3s ease;
+}
+
+.dashboard-container.sidebar-open {
+  margin-left: 250px; /* Adjust based on your sidebar width */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.user-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user-form input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.user-form button {
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  font-size: 18px;
+}

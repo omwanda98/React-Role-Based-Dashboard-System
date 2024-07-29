@@ -1,0 +1,57 @@
+/* Sidebar and toggle button styles */
+.toggle-btn {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  
+  .toggle-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .admin-sidebar {
+    width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 60px; /* Adjust based on the height of the navbar */
+    left: 0;
+    height: calc(100vh - 60px); /* Adjust based on the height of the navbar */
+    overflow-y: auto;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+  
+  .admin-sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .admin-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-sidebar li {
+    margin: 1rem 0;
+  }
+  
+  .admin-sidebar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .admin-sidebar a:hover {
+    color: #007bff;
+  }
+  
