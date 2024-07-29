@@ -6,12 +6,6 @@
 # production build
 /build
 
-# misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # Logs
 logs
@@ -69,14 +63,7 @@ out/
 # TailwindCSS JIT
 .tailwind/
 
-# dotenv environment variables file
-.env
 
-# local env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
 
 # vercel
 .vercel
