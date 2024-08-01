@@ -1,12 +1,19 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node"
+      }
+    ],
     "build": {
       "env": {
         "NODE_OPTIONS": "--openssl-legacy-provider"
       }
     },
     "functions": {
-      "api/*.js": {
-        "runtime": "nodejs18.x"
+      "api/**/*.js": {
+        "runtime": "nodejs18.17.0"
       }
     }
   }
